@@ -27,7 +27,6 @@ jobs:
         - name: Format
           run: |
             poetry check
-            poetry run black --check --verbose .
             poetry run ruff format .
 
         - name: Linter
