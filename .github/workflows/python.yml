@@ -36,7 +36,7 @@ jobs:
 
         - name: Audit
           run: |
-            poetry run bandit -c pyproject.toml -r .
+            poetry run bandit -c pyproject.toml .
 
         - name: Test with pytest
           run: |
