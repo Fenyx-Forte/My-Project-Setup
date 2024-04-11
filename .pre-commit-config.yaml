@@ -36,4 +36,7 @@ repos:
         args:
         - -c
         - pyproject.toml
+        - -r
+        - src/
+        - test/s
         additional_dependencies: ["bandit[toml]"]
